@@ -1,0 +1,16 @@
+.chatlist {
+  padding: 10px;
+  height: 400px;
+  width: 100%;
+  margin: 40px auto 0 auto;
+  background-color: #15191c;
+  overflow: hidden;
+  color: white;
+}
+
+.chatlist > div {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow: auto;
+}
